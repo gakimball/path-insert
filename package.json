@@ -1,0 +1,34 @@
+{
+  "name": "path-insert",
+  "version": "1.0.0",
+  "description": "Insert a path into another path",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/path-insert.git"
+  },
+  "keywords": [
+    "path",
+    "insert",
+    "replace",
+    "shim"
+  ],
+  "author": "Geoff Kimball <geoff@geoffkimball.com> (http://geoffkimball.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/path-insert/issues"
+  },
+  "homepage": "https://github.com/gakimball/path-insert#readme",
+  "devDependencies": {
+    "@gakimball/eslint-config": "^3.2.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "mocha": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
